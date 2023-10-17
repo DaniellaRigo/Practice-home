@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "repl-nix-practice-home"
+version = "0.1.0"
+description = ""
+authors = ["Replit user <<>>"]
+readme = "README.md"
+packages = [{include = "repl_nix_practice_home"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+forex-python = "^1.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
